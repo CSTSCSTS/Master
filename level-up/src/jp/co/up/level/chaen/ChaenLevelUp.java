@@ -6,6 +6,11 @@ import java.util.List;
 
 public class ChaenLevelUp {
 	public static void main(String args[]){
+//for(int i = 0;i< 11;i++) {
+//		if(i % 3 == 0) {
+//			System.out.println("fizz");
+//		}
+//	}
 //		System.out.println("2で割り切れるもの");
 //		for(int i = 1;i < 11;i++){
 //			if(i % 2 == 0){
@@ -103,49 +108,5 @@ public class ChaenLevelUp {
 			System.out.println(iterator2.next() * 2);
 
 		}
-
-
-
-
-
-
-
-
-
-//
-//   }
-//   Optional<Integer> suuzi = Optional.ofNullable(list2.get(2));
-//
-//   System.out.println("ここー"+suuzi);
-//   List<String> aaa = new  ArrayList<>();
-
-//	}
-
-//		List <Integer> list = new ArrayList<>();
-//		for (int i = 1; i < 11; i++) {
-//			if (i % 2 == 0) {
-//				list.add(i);
-//			}
-//		}
-//		for (int i : list) {
-//			System.out.println(i);
-//		}
-
-//		List <Integer> filterList = list.stream().filter(number -> number > 5)
-//				.collect(Collectors.toList());
-//		for (int i : filterList) {
-//			System.out.println(i);
-//		}
-//		for (int i = 1; i<11; i++) {
-//			if (i % 2 == 0) {
-//				System.out.println(i);
-//			}
-//		}
-
-
-
-
-
 	}
-
 }
